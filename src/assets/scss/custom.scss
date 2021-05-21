@@ -1,0 +1,14 @@
+// Global
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply text-primary;
+}
+
+body {
+  @apply font-primary;
+  @apply leading-normal;
+  @apply tracking-normal;
+}
