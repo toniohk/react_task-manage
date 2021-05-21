@@ -168,6 +168,8 @@ function Users(props) {
         return 'business';
       case 4:
         return 'research';
+      default:
+        return '';
     }
   };
 
@@ -177,6 +179,8 @@ function Users(props) {
         return 'Active';
       case 0:
         return 'Inactive';
+      default:
+        return '';
     }
   };
 

@@ -106,6 +106,8 @@ function Tasks(props) {
         return 'business';
       case 4:
         return 'research';
+      default:
+        return '';
     }
   };
 
@@ -115,6 +117,8 @@ function Tasks(props) {
         return 'Working';
       case 2:
         return 'Need review';
+      default:
+        return '';
     }
   };
 
